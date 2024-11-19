@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сканер QR-кодов</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Сканер QR-кодов</h1>
+  <video id="qr-video" width="320" height="240" autoplay></video>
+  <canvas id="qr-canvas" width="320" height="240" hidden></canvas>
+  <div id="output">
+    <p><strong>Результат:</strong> <span id="result">Нет данных</span></p>
+  </div>
+</body>
+</html>
